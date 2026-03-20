@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Foodie Delight</title>
+    <title>Contact Us - Foodie Delight</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -17,7 +17,7 @@
             </div>
             <nav>
                 <ul class="nav-links">
-                    <ul class="nav-links">
+                     <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="about.html">About</a></li>
@@ -30,26 +30,46 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section class="about-page">
+    <!-- Contact Section -->
+    <section class="contact-page">
         <div class="container">
-            <div class="about-header">
-                <h1>About Foodie Delight</h1>
-                <p>Learn more about our story and mission</p>
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you!</p>
             </div>
             
-            <div class="about-content">
-                <h2>Our Story</h2>
-                <p>Founded in 2025, Foodie Delight began with a simple mission: to deliver delicious, high-quality food to our customers' doorsteps. What started as a small kitchen operation has grown into a beloved local favorite, known for our innovative recipes and exceptional service.</p>
-                
-                <h2>Our Mission</h2>
-                <p>We believe that great food brings people together. Our mission is to create memorable dining experiences by using the freshest ingredients, crafting unique flavors, and providing outstanding customer service. Every dish we prepare is made with passion and care.</p>
-                
-                <h2>Quality Ingredients</h2>
-                <p>We source our ingredients from local farmers and suppliers who share our commitment to quality and sustainability. From farm-fresh vegetables to premium meats, we ensure that every component of our dishes meets our high standards.</p>
-                
-                <h2>Our Chefs</h2>
-                <p>Our talented team of chefs brings years of experience and creativity to the kitchen. Each chef specializes in different cuisines, allowing us to offer a diverse menu that caters to all tastes and preferences.</p>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="about-content">
+                    <h2>Get In Touch</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Yummy City</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@foodiedelight.com</p>
+                    
+                    <h2>Opening Hours</h2>
+                    <p>Monday - Friday: 10:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 11:00 AM - 11:00 PM</p>
+                </div>
             </div>
         </div>
     </section>
